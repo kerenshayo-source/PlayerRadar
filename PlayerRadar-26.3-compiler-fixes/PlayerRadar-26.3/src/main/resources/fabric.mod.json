@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "playerradar",
+  "version": "${version}",
+  "name": "Player Radar Navigator",
+  "description": "Local radar and directional navigation for players whose positions are sent to the client.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.playerradar.PlayerRadar"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
